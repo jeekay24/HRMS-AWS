@@ -1,0 +1,43 @@
+.dashboard-container {
+    background: url('./../assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Changed from center to flex-start */
+    align-items: center;
+    min-height: 100vh;
+}
+
+.creative-font {
+    font-family: 'Pacifio', cursive;
+    color: #fff; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dashboard-title {
+    margin-bottom: 60px !important;
+    text-align: center !important; /* Adjust this value as needed */
+}
+
+.sign-out-button {
+    background-color: #ff5a5f; /* Button color */
+    color: white;
+    width: 150px;  /* Make it square */
+    height: 50px; /* Make it square */
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* Center the button horizontally */
+}
+
+.sign-out-button:hover {
+    background-color: #e4e4e4;
+}

@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  margin: 0; /* Reset default margin */
+}
+
+.App {
+  background-color: #f0f2f5; /* Set a general background color */
+  height: 100vh; /* Ensure the App takes full height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.App-header {
+  position: relative;
+    height: 60px; /* Adjust height as needed */
+    background-color: #f0f2f5; /* Optional background color */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the right */
+    padding: 0 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px; /* Set a max width for the login box */
+  width: 100%; /* Ensure it scales down on smaller screens */
+  padding: 20px; /* Add some padding for better appearance */
+  background: white; /* Set a background color for the login box */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.sign-out-button {
+  background-color: #ff5a5f; /* Example button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.sign-out-button:hover {
+  background-color: #baabab;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
